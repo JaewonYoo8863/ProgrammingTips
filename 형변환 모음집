@@ -1,0 +1,6 @@
+📋 문자열 ↔ 숫자 변환 요약 (Java / C / C++ / Python)
+변환	Java	C	C++	Python
+문자열 → int	Integer.parseInt("123")	atoi("123")	stoi("123")	int("123")
+문자열 → long	Long.parseLong("123456789")	atol("123456789")	stol("123456789")	int("123456789") (Python 3에서 int가 long 포함)
+문자열 → double	Double.parseDouble("3.14")	atof("3.14")	stod("3.14")	float("3.14")
+숫자 → 문자열	String.valueOf(123)	sprintf(buf, "%d", 123)	to_string(123)	str(123)
